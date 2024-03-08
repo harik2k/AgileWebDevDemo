@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel=""stylesheet" href="test.css">
+    </head>
+    <body>
+        <div>
+            <h1> Group project sign-up</h1>
+            <p> Enter your sign-up details here</p>
+            <form action="/submitGroup">
+                <label for="numberOfStudents"> Number of students</label>
+                <!--input type="number" id="numberofStudents" min=1 max=4!-->
+                <select name="numberOfStudents" id="numberOfStudents">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                </select>
+                
+                
+                <br>
+
+                <label for="student1"> Student 1: </label>
+                <input type="number" id="student1"> </input>
+
+                <br>
+                <label for="student2"> Student 2: </label>
+                <input type="number" id="student1"> </input>
+
+                <br>
+                <label for="student3"> Student 3: </label>
+                <input type="number" id="student1"> </input>
+
+                <br>
+                <label for="student4"> Student 4: </label>
+                <input type="number" id="student1"> </input>
+
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div id="groupsSoFar">
+            <table>
+                <tr>
+                    <th> Group ID</th>
+                    <th> Student 1</th>
+                    <th> Student 2</th>
+                    <th> Student 3</th>
+                    <th> Student 4</th>
+                </tr>
+                
+                <tr>
+                <td> 0</td>
+                <td> Bob (123123)</td>
+                <td> Lili (123123)</td>
+                <td> Rob (123123)</td>
+                <td> Max (5435545)</td>
+                </tr>
+
+                <tr>
+                <td> 1</td>
+                <td> 123</td>
+                <td> 6456</td>
+                <td> 43543</td>
+                <td> 8687</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </body>
+</html>
