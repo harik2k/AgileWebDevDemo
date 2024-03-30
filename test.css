@@ -1,0 +1,16 @@
+ #signUpForm {
+
+    background-color: rgb(21, 211, 224);
+}
+
+#existingGroups {
+background-color: pink;
+}
+/*can't just use span because that will apply this to every span on the webpage. Now spans only in that class of spans*/
+.studentName:hover {
+font-weight: 800;
+}
+
+.ejectButton {
+    background-color: chartreuse;
+}

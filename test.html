@@ -1,10 +1,11 @@
 <html>
     <head>
-        <link rel=""stylesheet" href="test.css">
+        <link rel="stylesheet" href="test.css">
     </head>
     <body>
-        <div>
+        
             <h1> Group project sign-up</h1>
+            <div id="signupForm">
             <p> Enter your sign-up details here</p>
             <form action="/submitGroup">
                 <label for="numberOfStudents"> Number of students</label>
@@ -39,7 +40,7 @@
             </form>
         </div>
 
-        <div id="groupsSoFar">
+        <div id="existingGroups">
             <table>
                 <tr>
                     <th> Group ID</th>
@@ -51,22 +52,25 @@
                 
                 <tr>
                 <td> 0</td>
-                <td> Bob (123123)</td>
-                <td> Lili (123123)</td>
-                <td> Rob (123123)</td>
-                <td> Max (5435545)</td>
+                <td> <span class="studentName"> Lili  </span>(123123)</td>
+                <td> <span class="studentName"> Rob  </span>(123123)</td>
+                <td> <span class="studentName">Bob </span>(123123)</td>
+                <td> <span class="studentName"> Max  </span>(5435545)</td>
                 </tr>
 
                 <tr>
-                <td> 1</td>
-                <td> 123</td>
-                <td> 6456</td>
-                <td> 43543</td>
-                <td> 8687</td>
+                <td> <span class="studentName"> 1 </td>
+                <td> <span class="studentName"> James </span>(123)</td>
+                <td> <span class="studentName"> Cherry </span>(454)</td>
+                <td> <span class="studentName"> Miley </span>(654)</td>
+                <td> <span class="studentName"> Harsh </span>(23434)</td>
                 </tr>
 
             </table>
         </div>
+        
+        Kick out:
+        <button> <span class="studentName ejectButton">Jerry </span></button>
 
     </body>
 </html>
