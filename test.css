@@ -1,3 +1,8 @@
+ #title {
+    display: flex;
+    justify-content: center;
+ }
+ 
  #signUpForm {
 
     background-color: rgb(21, 211, 224);
@@ -9,6 +14,21 @@ background-color: pink;
 /*can't just use span because that will apply this to every span on the webpage. Now spans only in that class of spans*/
 .studentName:hover {
 font-weight: 800;
+}
+
+label {
+    color: orange;
+} 
+
+form:hover {
+    color: green;
+
+}
+
+#submitBtn {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
 }
 
 .ejectButton {
